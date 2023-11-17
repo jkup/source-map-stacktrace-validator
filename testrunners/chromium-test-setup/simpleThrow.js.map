@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "file": "webpack.bundle.js",
+  "mappings": "CAAA,WACE,MAAM,IAAIA,MAAM,uBAClB,CAEAC",
+  "sources": [
+    "webpack://sourcemaps-playground/./src/index.js"
+  ],
+  "sourcesContent": [
+    "function wat() {\n  throw new Error(\"something went wrong\");\n}\n\nwat();\n"
+  ],
+  "names": [
+    "Error",
+    "wat"
+  ],
+  "sourceRoot": ""
+}
