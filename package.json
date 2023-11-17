@@ -1,0 +1,12 @@
+{
+  "name": "source-map-stacktrace-validator",
+  "version": "1.0.0",
+  "description": "Validate source map stacktraces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
