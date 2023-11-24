@@ -24,7 +24,6 @@ folders.forEach((subdir) => {
 
       child.stderr.on("data", function (data) {
         const stringifiedError = data.toString();
-
         const regex = /^(Error: [^\n]+)|^([^\s].*)|at (\S+) \(([^\)]+)\)/gm;
         let match;
         let errorFilePath,
